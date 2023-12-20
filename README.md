@@ -1,16 +1,17 @@
-Code Explanation CLI Tool
-Overview
+Code Explanation CLI Tool:-
+
+Overview:
 This CLI tool uses the OpenAI API to provide explanations for code written in various programming languages. It supports multiple programming languages such as JavaScript, Python, HTML, PHP, C++, Java, CSS, and SQL.
 
-Prerequisites
+Prerequisites:-
 1. Node.js and npm: Make sure you have Node.js and npm installed on your machine. You can download them from https://nodejs.org/.
 2. OpenAI API Key: Obtain an API key from OpenAI. You can sign up and get your API key from https://beta.openai.com/signup/.
 
 
-Setup
+Setup:-
 1. Clone the Repository:
 git clone https://github.com/spm999/Node-CLI-app.git
-cd Node-CLI.git
+cd Node-CLI-app.git
 
 2. Install Dependencies:
 npm install
@@ -20,7 +21,7 @@ Create a .env file in the root directory. Add your OpenAI API key to the .env fi
 OPENAI_API_KEY=your_actual_api_key_here
 
 
-Usage
+Usage:-
 
 Running the CLI Tool:-
 To explain code in a file, use the following command:
@@ -64,6 +65,8 @@ switch (fileExtension) {
   default:
     throw new Error(`Unsupported file type: ${fileExtension}`);
 }
+and change the path of the file in async main() function.
+
 
 
 Additional Functionality
