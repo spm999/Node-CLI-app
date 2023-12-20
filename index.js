@@ -2,7 +2,7 @@ import OpenAI from "openai";
 import fs from 'fs/promises';
 
 const openai = new OpenAI({
-  apiKey: "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"
+  apiKey: process.env.OPENAI_API_KEY,
 });
 
 async function getCodeFromFile(filePath) {
