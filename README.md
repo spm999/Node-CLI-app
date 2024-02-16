@@ -1,7 +1,6 @@
+###Code Explanation CLI Tool
+
 Video Link: https://www.youtube.com/watch?v=eKSuClkMLog
-
-
-#Code Explanation CLI Tool
 
 ##Overview:
 This CLI tool uses the OpenAI API to provide explanations for code written in various programming languages. It supports multiple programming languages such as JavaScript, Python, HTML, PHP, C++, Java, CSS, and SQL.
