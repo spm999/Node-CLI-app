@@ -38,7 +38,7 @@ The tool currently supports the following languages:
 
 To add support for additional languages, update the detectLanguage function in yourscript.js. Add a case for the new file extension and return the corresponding language.
 
-switch (fileExtension) {  
+```switch (fileExtension) {  
   case 'js': 
     return 'javascript';
   case 'py':
@@ -58,7 +58,8 @@ switch (fileExtension) {
   // Add more cases for other languages
   default:
     throw new Error(Unsupported file type: ${fileExtension});
-}```
+}
+```
 
 
 and change the path of the file in async main() function.
