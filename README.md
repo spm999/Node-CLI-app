@@ -1,37 +1,41 @@
-Code Explanation CLI Tool
+# Code Explanation CLI Tool
 
-Video Link: https://www.youtube.com/watch?v=eKSuClkMLog
+### Video Link: https://www.youtube.com/watch?v=eKSuClkMLog
 
-Overview:
+## Overview:
+
 This CLI tool uses the OpenAI API to provide explanations for code written in various programming languages. It supports multiple programming languages such as JavaScript, Python, HTML, PHP, C++, Java, CSS, and SQL.
 
-Prerequisites:-
+## Prerequisites:-
+
 1. Node.js and npm: Make sure you have Node.js and npm installed on your machine. You can download them from https://nodejs.org/.
 2. OpenAI API Key: Obtain an API key from OpenAI. You can sign up and get your API key from https://beta.openai.com/signup/.
 
 
-Setup:-
+## Setup:-
+
 1. Clone the Repository:
-git clone https://github.com/spm999/Node-CLI-app.git
-cd Node-CLI-app.git
+```git clone https://github.com/spm999/Node-CLI-app.git```
+```cd Node-CLI-app.git```
 
 2. Install Dependencies:
-npm install
+```npm install```
 
 3. Set Up Environment:
 Create a .env file in the root directory. Add your OpenAI API key to the .env file:
-OPENAI_API_KEY=your_actual_api_key_here
+```OPENAI_API_KEY=your_actual_api_key_here```
 
 
-Usage:-
+## Usage:-
 
-Running the CLI Tool:-
+### Running the CLI Tool:-
 To explain code in a file, use the following command:
 node yourscript.js explain
 
 Replace yourscript.js with the actual name of your script.
 
-Supported Languages:-
+### Supported Languages:-
+
 The tool currently supports the following languages:
 
 1. JavaScript (.js)
@@ -42,10 +46,11 @@ The tool currently supports the following languages:
 6. Java (.java)
 7. CSS (.css)
 8. SQL (.sql)
-Adding More Languages
+   
+### Adding More Languages
 To add support for additional languages, update the detectLanguage function in yourscript.js. Add a case for the new file extension and return the corresponding language.
 
-// Add more cases for other languages as needed
+```// Add more cases for other languages as needed
 switch (fileExtension) {
   case 'js':
     return 'javascript';
@@ -66,7 +71,8 @@ switch (fileExtension) {
   // Add more cases for other languages
   default:
     throw new Error(`Unsupported file type: ${fileExtension}`);
-}
+}```
+
 and change the path of the file in async main() function.
 
 
