@@ -15,13 +15,12 @@ This CLI tool uses the OpenAI API to provide explanations for code written in va
 2. Install Dependencies: `npm install`
 3. Set Up Environment: Create a .env file in the root directory. Add your OpenAI API key to the .env file: `OPENAI_API_KEY=your_actual_api_key_here`
 
-### Running the CLI Tool:-
+## Running the CLI Tool:-
 
-To explain code in a file, use the following command: node yourscript.js explain
+1. To explain code in a file, use the following command: node yourscript.js explain
+2. Replace yourscript.js with the actual name of your script.
 
-Replace yourscript.js with the actual name of your script.
-
-### Supported Languages:-
+## Supported Languages:-
 
 The tool currently supports the following languages:
 
@@ -64,9 +63,11 @@ To add support for additional languages, update the detectLanguage function in y
 
 and change the path of the file in async main() function.
 
+
 ### Additional Functionality
 
 The CLI tool currently provides code explanations. You can extend it to add more functionalities by modifying the main function in yourscript.js. For example, you can add options to lint code, format code, or perform other code-related tasks.
+
 
 #### **Examples:-**
 
