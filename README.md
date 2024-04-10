@@ -1,6 +1,6 @@
 # Code Explanation CLI Tool
 
-[Video Link]([https://www.youtube.com/watch?v=eKSuClkMLog](https://www.youtube.com/watch?v=eKSuClkMLog))
+***Medium Blog: http://surl.li/sltqs***
 
 This CLI tool uses the OpenAI API to provide explanations for code written in various programming languages. It supports multiple programming languages such as JavaScript, Python, HTML, PHP, C++, Java, CSS, and SQL.
 
@@ -33,7 +33,7 @@ The tool currently supports the following languages:
 7. CSS (.css)
 8. SQL (.sql)
 
-### Adding More Languages
+## Adding More Languages
 
 To add support for additional languages, update the detectLanguage function in yourscript.js. Add a case for the new file extension and return the corresponding language.
 
@@ -64,12 +64,12 @@ To add support for additional languages, update the detectLanguage function in y
 and change the path of the file in async main() function.
 
 
-### Additional Functionality
+## Additional Functionality
 
 The CLI tool currently provides code explanations. You can extend it to add more functionalities by modifying the main function in yourscript.js. For example, you can add options to lint code, format code, or perform other code-related tasks.
 
 
-#### **Examples:-**
+#### Examples
 
 **Explain JavaScript Code:**
 node yourscript.js explain
